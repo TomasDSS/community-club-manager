@@ -20,3 +20,13 @@ A web app I built for my final year project at Ravensbourne. Its a club manageme
 ## To run it
 
 Make sure you have Node installed, then:
+Then go to http://localhost:5173
+
+## Login
+
+Email: marker@clubmanager.com  
+Password: Marker1234!
+
+## Notes
+
+The face detection models are in /public/models - they need to be there for the check in page to work properly. Everything runs in the browser, no biometric data gets sent anywhere.
