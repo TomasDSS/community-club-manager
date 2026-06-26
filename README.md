@@ -1,16 +1,22 @@
-# React + Vite
+# Community Club Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web app I built for my final year project at Ravensbourne. Its a club management system for community sports clubs - handles attendance, safeguarding logs, payments and member management.
 
-Currently, two official plugins are available:
+## What it does
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Members can be checked in to sessions, with optional face detection through the webcam
+- Dashboard shows attendance charts and recent activity
+- Safeguarding page for logging drop off and collection of young members
+- Payment tracking with balance per member
+- Analytics page that flags members who havent shown up in a while
 
-## React Compiler
+## Tech used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React (Vite)
+- Supabase (database + auth)
+- face-api.js for the face detection bit
+- Recharts for the charts
 
-## Expanding the ESLint configuration
+## To run it
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Make sure you have Node installed, then:
